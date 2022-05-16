@@ -4,9 +4,11 @@ body {
     line-height: 27px;
     margin: 0;
 }
-header img{
+
+header img {
     width: 110px;
 }
+
 .holder {
     max-width: 960px;
     margin: 0 auto;
@@ -42,7 +44,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     width: 150px;
-   
+
 }
 
 nav ul li a {
@@ -60,7 +62,9 @@ nav ul li a:hover {
 .activo {
     background-color: darkgray;
 }
-h2, h3{
+
+h2,
+h3 {
     color: darkred;
     font-family: 'Oswald', sans-serif;
 }
@@ -135,10 +139,11 @@ footer {
     max-width: 80%;
 }
 
-.persona1, .persona2 {
+.persona1,
+.persona2 {
     display: inline-flex;
     margin-left: 6em;
-}  
+}
 
 .m2011-2023 {
     border: 7px solid darkgray;
@@ -157,14 +162,62 @@ footer {
 .m2011-2023 p {
     width: 75%;
     font-size: 17px;
-    font-style:italic;
+    font-style: italic;
     font-weight: 500;
     margin: 0 0 16px;
-    
+
 }
 
 .m2011-2023 img {
     border-radius: 16px;
-    float:right;
+    float: right;
+}
+.columna {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.columna.left{
+    border-right: 3px solid #539af5;
+}
+.coumna.right p {
+    font-size: 14.4px;
 }
 
+.columna.right ul li {
+    font-size: 12.8px;
+}
+
+.formulario label {
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea {
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    padding: 6.4px 9.8px;
+    font-size: 12.8px;
+    width: 70%;
+}
+
+.formulario input[type="submit"] {
+    background-color: lightblue;
+    box-shadow: 0 0 16px lightskyblue;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea {
+    height: 160px;
+    resize: none;
+}
+
+.formulario .acciones {
+    text-align: center;
+}

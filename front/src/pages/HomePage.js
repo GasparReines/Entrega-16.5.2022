@@ -1,14 +1,15 @@
-
+import React from 'react';
+import '../styles/componentes/pages/HomePage.css'
 const HomePage = (props) => {
     return (
         <main className="holder">
-            <div className="homeing">
-                <img src="images/home/imghome.jpg" alt="deportesimg" />
+            <div className="homeimg">
+              
             </div>
             <div className="columnas">
-                <div className="bienvenidos left">
-                    <h2>Bienvenidos</h2>
-                    <p> El origen de la palabra deporte es latino (2). En castellano, en el siglo XIII de denominaba:
+                <div className="explicacion left">
+                    <h2>¿Cuando surgio el deporte?</h2>
+                    <p>El origen de la palabra deporte es latino . En castellano, en el siglo XIII de denominaba:
                         depuerto
                         que significaba deportarse, lo que quiere decir divertirse o descansar. En inglés la palabra
                         deporte
@@ -22,8 +23,7 @@ const HomePage = (props) => {
                         cultural
                         en el que se desarrolla que son muy característicos. Por esta razón, actúa como ritual cultural
                         o como
-                        transmisor de cultura.
-                    </p>
+                        transmisor de cultura.</p>
                     <h2>¿Como influye en la vida de las personas?</h2>
                     <p> El deporte y la actividad física son factores que influyen positivamente en la salud física:
                         prevención
@@ -43,15 +43,13 @@ const HomePage = (props) => {
                         vida
                         saludable.</p>
                 </div>
-                <div className="columnas right">
-                    <h2>Testimonios</h2>
-                    <div className="testimonio">
-                        <span className="cita">Simplemente Excelente </span>
-                        <span className="autor">Juan Perez</span>
-                    </div>
+                <div className="testimonios right">
+                    <h2>Autores de la informacion</h2>
+                    <span className="autor 1"> Mundo Etrenamiento, David.</span>
+                    <span className="autor 2 ">Sergio Humberto Barbosa Granados y Ángela María Urrea Cuéllar.</span>
                 </div>
             </div>
-        </main>
+        </main >
     );
 }
-export default HomePage ;
+export default HomePage;

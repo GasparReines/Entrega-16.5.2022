@@ -1,8 +1,10 @@
-const Footer = (props) =>{
+import React from 'react';
+import '../../styles/componentes/layout/Footer.css'
+const Footer = (props) => {
     return (
         <footer>
-            <p>Derechos reservados. Deportes Populares</p>
+            <p> Derechos Reservados. Deportes polpulares</p>
         </footer>
     );
 }
-export default Footer;
+export default Footer ;

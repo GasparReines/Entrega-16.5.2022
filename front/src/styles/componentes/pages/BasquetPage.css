@@ -1,0 +1,23 @@
+.resumen p{
+    font-size: 0.8em;
+}
+.mundial{
+    width: 21%;
+    margin-left: 2%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.mundiales {
+    overflow: hidden;
+}
+
+.mundial img {
+    border-radius: 10px;
+    margin: 14px 0 18px;
+    max-width: 100%;
+}

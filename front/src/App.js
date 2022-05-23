@@ -1,30 +1,27 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router,Switch, Route } from "react-router-dom";
 
-import Header from "./componentes/layout/Header"
-import Nav from "./componentes/layout/Nav";
+import './App.css';
+import Header from './componentes/layout/Header';
 import Footer from './componentes/layout/Footer';
-import HomePage from './pages/Home';
-import RugbyPage from './pages/Rugby';
-import BasquetPage from './pages/Basquet';
-import ConsultasPage from './pages/Consultas';
-
-
+import Nav from './componentes/layout/Nav';
+import HomePage from './pages/HomePage';
+import ConsultasPage from './pages/ConsultasPage';
+import RugbyPage from "./pages/RugbyPage";
+import BasquetPage from './pages/BasquetPage';
 
 function App() {
   return (
     <Router>
-      <Header></Header>
-      <Nav />
+      <Header/>
+      <Nav/>
       <Switch>
         <Route path="/" exact component={HomePage} />
-        <Route path="/Rugby" exact component={RugbyPage} />
-        <Route path="/Basquet" exact component={BasquetPage} />
-        <Route path="/Consultas" exact component={ConsultasPage} />
+        <Route path="/rugby" exact component={RugbyPage} />
+        <Route path="/basquet" exact component={BasquetPage} />
+        <Route path="/consultas" exact component={ConsultasPage} />
       </Switch>
-      <Footer />
+      <Footer/>
     </Router>
   );
 }
-export default App
-
-
+export default App;

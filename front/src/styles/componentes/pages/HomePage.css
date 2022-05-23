@@ -1,0 +1,30 @@
+.homeimg{
+    clear:both;
+    margin-bottom: 1.5em;
+}
+.explicacion{
+    width: 65%;
+    padding-right: 2em;
+    float: left;
+}
+.explicacion .testimonios{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.explicacion p{
+    font-size: 1.3em;
+}
+.testimonios{
+    width: 25%;
+    float: right;
+}
+.autor{
+    background-color: lightgray;
+    padding: 1em;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    text-align: center;
+    
+}

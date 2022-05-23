@@ -1,12 +1,13 @@
-
-
+import React from 'react';
+import logo from './logo.jpg';
+import '../../styles/componentes/layout/Header.css';
 const Header = (props) => {
-    return(
+    return (
         <header>
-            <div className="holder">
-                <div className="logo">
-                  <img src="images/home/logo.jfif" alt="foto"/> 
-                    <h1>Deportes Populares</h1>
+            <div className='holder'>
+                <div className='logo'>
+                    <img src={logo} width="75" alt="logo"/>
+                    <p>Deportes Populares</p>
                 </div>
             </div>
         </header>

@@ -1,0 +1,37 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  line-height: 27px;
+  margin: 0;
+}
+
+header img {
+  width: 110px;
+  border-radius: 50%;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header {
+  background-color: #539af5;
+  padding: 16px 0;
+}
+
+header h1 {
+  display: inline-block;
+  position: relative;
+  color: darkred;
+  font-style: oblique;
+  font-size: 50px;
+  font-weight: 500;
+  bottom: 30px;
+}
+footer {
+  background-color: #539af5;
+  text-align: center;
+  clear: both;
+  padding: 2em;
+  margin-top: 2em;
+}
